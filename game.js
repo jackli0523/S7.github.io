@@ -15,7 +15,7 @@ class scene extends Phaser.Scene {
         this.w = 800;
         this.h = 600;
 
-        let target = this.add.text(200, 100,"up: use space bar").setOrigin(0.5).setFontSize(50);
+        let target = this.add.text(300, 100,"up: use space bar").setOrigin(0.5).setFontSize(50);
         this.time.delayedCall(60 * 1000,()=>{
             this.tweens.add({
                 targets: target,
